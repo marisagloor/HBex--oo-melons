@@ -57,10 +57,10 @@ class InternationalMelonOrder(AbstractMelonOrder):
             total += 3
 
 
-# class GovernmentMelonOrder(AbstractMelonOrder):
-#     """class for melons with specail government tax"""
-#     passed_inspection = None
-#     tax = 0
+class GovernmentMelonOrder(AbstractMelonOrder):
+    """class for melons with specail government tax"""
+    passed_inspection = None
+    tax = 0
 
-#     def mark_inspection(self, passed):
-#         self.passed_inspection = passed
+    def mark_inspection(self, passed):
+        self.passed_inspection = passed
